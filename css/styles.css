@@ -18,16 +18,18 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.logo {
-  font-family: var(--secondary-font);
+
+.works__header,
+.team__header {
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
   color: var(--headers-color);
 }
-
 /* ======== END COMPONENTS ======== */
 
 /* ========== HEADER ========== */
@@ -46,6 +48,15 @@ body {
 .address__list-link:focus {
   color: var(--accent-color);
 }
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--headers-color);
+}
 /* ========== END HEADER ========== */
 
 /* ========== HERO ========== */
@@ -55,6 +66,85 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
+  /* color: var(--hero-color); */
 }
+
 .hero__header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: var(--hero-color); */
 }
+/* ========== END HERO ========== */
+
+/* ========== ABOUT ========== */
+.about__list-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--headers-color);
+}
+
+.about__list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ========== END ABOUT ========== */
+
+/* ========== WORKS ========== */
+
+/* ========== END WORKS ========== */
+
+/* ========== TEAM ========== */
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--headers-color);
+}
+
+.team__work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ========== END TEAM ========== */
+
+/* ========== FOOTER ========== */
+.footer__logo-element {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  /* color: var(--hero-color); */
+}
+
+.footer__address-map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.footer__address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: var(--footer__address-color); */
+}
+/* ========== END FOOTER ========== */
