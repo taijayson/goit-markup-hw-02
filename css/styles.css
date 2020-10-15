@@ -1,0 +1,60 @@
+:root {
+  --accent-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --headers-color: #212121;
+  --text-color: #757575;
+  --hero-color: #ffffff;
+  --footer__address-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* ========== COMPONENTS ========== */
+.logo-element {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--accent-color);
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--headers-color);
+}
+
+/* ======== END COMPONENTS ======== */
+
+/* ========== HEADER ========== */
+.navigation__list-link,
+.address__list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
+}
+
+.navigation__list-link:hover,
+.address__list-link:hover,
+.navigation__list-link:focus,
+.address__list-link:focus {
+  color: var(--accent-color);
+}
+/* ========== END HEADER ========== */
+
+/* ========== HERO ========== */
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+.hero__header {
+}
