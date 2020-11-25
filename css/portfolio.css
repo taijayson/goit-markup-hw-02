@@ -8,6 +8,13 @@
   --footer__address-color: rgba(255, 255, 255, 0.6);
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: var(--main-font);
 }
@@ -22,6 +29,11 @@ body {
 
 .address {
   font-style: normal;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* ========== COMPONENTS ========== */
