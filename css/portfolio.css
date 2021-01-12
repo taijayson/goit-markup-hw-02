@@ -63,6 +63,10 @@ body {
   color: var(--accent-color);
 }
 
+.navigation__list-item .active {
+  color: var(--accent-color);
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;

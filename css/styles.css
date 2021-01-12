@@ -78,7 +78,7 @@ img {
   justify-content: space-between;
 }
 .header .address {
-  /* margin-left: auto; */
+  margin-left: auto;
 }
 
 .navigation {
@@ -109,6 +109,14 @@ img {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--headers-color);
+}
+
+.address__list-link {
+  color: #757575;
+}
+
+.navigation__list-item .active {
+  color: var(--accent-color);
 }
 
 .navigation__list-link:hover,
@@ -197,7 +205,6 @@ img {
 .works__list {
   display: flex;
   justify-content: space-between;
-  padding-top: ;
 }
 
 .works__list-item:not(:last-child) {
@@ -207,6 +214,10 @@ img {
 /* ========== END WORKS ========== */
 
 /* ========== TEAM ========== */
+.team .container {
+  display: flex;
+}
+
 .team__name {
   font-weight: 500;
   font-size: 16px;
